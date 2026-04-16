@@ -1,0 +1,44 @@
+# ── API Keys & Secrets ────────────────────────────────
+.env
+.env.*
+*.key
+secrets.toml
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ── Virtual Environments ──────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── Streamlit ─────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── IDE / Editor ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs & Output ─────────────────────────────────────
+*.log
+logiq_report_*.txt
+
+# ── Testing ───────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
